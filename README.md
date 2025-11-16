@@ -2,6 +2,8 @@
 
 Lightweight screen locker for touch kiosk devices (inspired by `slock`). Designed to ignore the first accidental touch on a blanked touchscreen.
 
+---
+
 ## 📌 Features
 
 - Ignore first touch event to avoid blind clicks on a sleeping touchscreen
