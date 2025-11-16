@@ -116,7 +116,7 @@ Restrict installation to specific hardware or OS conditions:
 
 ```bash
 CFG_RES_RAS_PI="rpi3|rpi4|rpi5"     # Raspberry Pi model
-CFG_RES_RAS_OS="bullseye|bookworm" # Raspbian release
+CFG_RES_RAS_OS="trixie|bullseye|bookworm" # Raspbian release
 CFG_RES_CPU_ARCH="armhf|arm64"     # CPU architecture
 CFG_RES_OS_ARCH="32|64"            # OS architecture
 ```

@@ -521,6 +521,7 @@ then
   [[ "\$rasos_v" =~ "Raspbian" ]] && [[ "\$rasos" =~ "all" ]] && rasos_res="true"
   [[ "\$rasos_v" =~ "Raspbian" ]] && [[ "\$rasos_v" =~ "bullseye" ]] && [[ "\$rasos" =~ "bullseye" ]] && rasos_res="true"
   [[ "\$rasos_v" =~ "Raspbian" ]] && [[ "\$rasos_v" =~ "bookworm" ]] && [[ "\$rasos" =~ "bookworm" ]] && rasos_res="true"
+  [[ "\$rasos_v" =~ "Raspbian" ]] && [[ "\$rasos_v" =~ "trixie" ]] && [[ "\$rasos" =~ "trixie" ]] && rasos_res="true"
   if [ "\$rasos_res" == "false" ]; then
     echo "You need to run Raspbian OS (\$rasos) to install! Can not continue with this installer!"
     exit 1
