@@ -151,7 +151,7 @@ function check_cfg_priority() {
   fi
   case "$CFG_PRIORITY" in
     required|important|standard|optional)
-      # gültig
+      # valid
       ;;
     *)
       echo "ERROR: CFG_PRIORITY='$CFG_PRIORITY' is invalid!"
